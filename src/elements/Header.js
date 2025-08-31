@@ -1,4 +1,4 @@
-import bigAva from './../freenas.svg';
+import bigAva from './../assets/freenas.svg';
 
 export function Header() {
   return <div className='header'>

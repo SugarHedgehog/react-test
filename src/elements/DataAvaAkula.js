@@ -1,5 +1,5 @@
 import { DataAboutAkula } from './DataAkula';
-import akula from './../akula.png';
+import akula from './../assets/akula.png';
 
 export function DataAvaAkula() {
   return <div className='flex-row'>
