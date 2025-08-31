@@ -2,7 +2,7 @@ import akula from './assets/akula.png';
 import './App.css';
 import { Menu } from './elements/Menu';
 import { Header } from './elements/Header';
-import { DataAvaAkula } from './elements/DataAvaAkula';
+import { Main } from './elements/Main';
 
 function App() {
   return (
@@ -10,12 +10,7 @@ function App() {
       {Header()}
       <div className='row'>
           {Menu()}
-        <div className='main'>
-          <div className='flex-container-main'>
-            <img className='img-preview' src={akula} alt='ava'></img>
-            {DataAvaAkula()}
-          </div>
-        </div>
+        {Main()}
       </div>
     </div>
   );
