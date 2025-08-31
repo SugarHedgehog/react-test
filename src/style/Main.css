@@ -1,0 +1,16 @@
+/* Main column */
+.main {
+  flex: 80%;
+  padding: 20px;
+  background-color: #e5bbff;
+}
+
+.flex-container-main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-height: 500px;
+  padding-top: 10px;
+  background-color: #d189fd;
+  border-radius: 10px;
+}

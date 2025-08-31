@@ -1,0 +1,10 @@
+/* Column container */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.data-row {
+  display: flex;
+  flex-direction: row;
+}
