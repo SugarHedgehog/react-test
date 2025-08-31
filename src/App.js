@@ -1,4 +1,3 @@
-import akula from './assets/akula.png';
 import './App.css';
 import { Menu } from './elements/Menu';
 import { Header } from './elements/Header';
