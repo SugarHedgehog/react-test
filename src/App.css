@@ -51,8 +51,8 @@ body {
 
 /* Header/logo Title */
 .header {
-  padding: 10px;
-  font-size: 30px;
+  padding: 5px;
+  font-size: 20px;
   text-align: center;
   background: #d495fcc0;
   color: rgb(0, 0, 0);
@@ -190,5 +190,5 @@ p {
   max-height: 20%;
   height: 10%;
   object-fit: cover;
-  margin-left: 10px;
+  margin: 10px 10px 10px 10px;
 }
