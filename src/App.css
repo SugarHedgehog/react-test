@@ -149,13 +149,13 @@ body {
 }
 
 a {
-  font-size: 25px;
+  font-size: 20px;
 }
 
 p {
   font-style: italic;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 25px;
+  font-size: 17px;
 }
 
 .column p {
@@ -178,8 +178,8 @@ p {
 }
 
 .img-ava {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   margin: 10px 10px 10px 10px;
 }
@@ -187,8 +187,8 @@ p {
 .img-preview {
   border-radius: 10px;
   width: 90%;
-  max-height: 40%;
-  height: 30%;
+  max-height: 20%;
+  height: 10%;
   object-fit: cover;
   margin-left: 10px;
 }
