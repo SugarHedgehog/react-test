@@ -1,34 +1,21 @@
-import logo from './freenas.svg';
 import akula from './akula.png';
 import './App.css';
+import { Menu } from './elements/Menu';
+import { Header } from './elements/Header';
+import { DataAvaAkula } from './elements/DataAvaAkula';
 
 function App() {
   return (
     <div className="App">
-      <div className='header'>
-        <div className='row'><img src={logo} width='80vmin' alt='logo' />
-          <h2>AKula</h2></div>
-      </div>
+      {Header()}
       <div className='row'>
         <div className='menu'>
-          <div className='column'>
-            <a href='#s'>My Sea</a>
-            <a href='#s'>Diner News</a>
-            <a href='#s'>Temperature</a>
-            <a href='#s'>Setting</a>
-          </div>
+          {Menu()}
         </div>
         <div className='main'>
           <div className='flex-container-main'>
             <img className='img-preview' src={akula} alt='ava'></img>
-            <div className='flex-row'>
-              <img className='img-ava' src={akula} alt="akula" width="100" height="100"></img>
-              <div className='column'>
-                <p>Name: Ariel</p>
-                <p>Year: 21</p>
-                <p>City: Seawill</p>
-              </div>
-            </div>
+            {DataAvaAkula()}
           </div>
         </div>
       </div>
