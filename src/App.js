@@ -9,9 +9,7 @@ function App() {
     <div className="App">
       {Header()}
       <div className='row'>
-        <div className='menu'>
           {Menu()}
-        </div>
         <div className='main'>
           <div className='flex-container-main'>
             <img className='img-preview' src={akula} alt='ava'></img>
