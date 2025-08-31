@@ -132,7 +132,7 @@ body {
   display: flex;
 }
 
-.flex-container-col {
+.column {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -158,21 +158,21 @@ p {
   font-size: 25px;
 }
 
-.flex-container-col p {
+.column p {
   text-align: left;
   margin-left: 25px;
   margin-bottom: -2px;
   margin-right: 25px;
 }
 
-.flex-container-col a {
+.column a {
   margin-top: 10px;
   text-align: center;
   margin-left: 25px;
   margin-bottom: 10px;
 }
 
-.flex-container-row {
+.flex-row {
   display: flex;
   flex-direction: row;
 }
